@@ -2,7 +2,7 @@
 
 `MemberFunctions.jl` helps writing member-like functions, reducing the amount of
 code required to implement them. All functions prefixed by the `@member` macro
-can access, i.e. read and write, field variables of the first argument directly.
+can access, i.e. read and write, fields of the first argument directly.
 
 __Example__
 
